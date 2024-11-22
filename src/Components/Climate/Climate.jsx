@@ -21,7 +21,7 @@ const Climate = () => {
           <p className="text-green-700 font-medium text-sm uppercase mb-2">
             About Us
           </p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-green-800 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold font-albert  text-black mb-6">
             Leading the Charge in Africa’s Green Revolution
           </h2>
           <div className="flex items-start gap-4 mb-6">
