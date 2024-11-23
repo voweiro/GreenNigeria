@@ -18,7 +18,7 @@ function Footer() {
               <img
                 src={logoTwo}
                 alt="Green Clean Logo"
-                className="hidden h-[36px] w-[176px] lg:block"
+                className=" h-[36px] w-[176px] lg:block"
               />
             </div>
             <p className="mt-5 mb-6 text-[14px] leading-6 font-albert font-[400] text-[#868681] md:text-[16px] md:w-[250px]">

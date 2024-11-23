@@ -1,7 +1,7 @@
 import { FaSearch, FaBars } from "react-icons/fa";
 import logo from "../../assets/image/Green_Clean logo.png";
 import logoTwo from "../../assets/image/Green_Cleanside.png";
-import { useState } from "react";  // Use state to manage the mobile menu visibility
+import { useState } from "react"; // Use state to manage the mobile menu visibility
 import Top from "./Top";
 
 function Navigation() {
@@ -14,11 +14,10 @@ function Navigation() {
 
   return (
     <div className="w-full">
-      <Top/>
+      <Top />
       <div className="w-full bg-transparent border-t border-b border-white">
         {/* Container for all navigation elements */}
         <div className="mx-auto w-[88%] flex items-center justify-between py-5 text-white">
-
           {/* Logo Section */}
           <div className="flex items-center space-x-3">
             <img src={logo} alt="Green Clean Logo" className="h-10" />
@@ -36,7 +35,7 @@ function Navigation() {
           </div>
 
           {/* Search Icon and Contact Button for Desktop */}
-          <div className="flex items-center space-x-6 md:block">
+          <div className="flex items-center space-x-6">
             <FaSearch className="text-white cursor-pointer hover:text-green-500" />
             <button className="px-5 py-2 text-white bg-[#49AF45] rounded-md hover:bg-[#30862d] font-albert hover:border-none focus:outline-none focus:ring-0">
               Contact Us
