@@ -59,12 +59,7 @@ function Navigation() {
             <a href="#" className="block text-[#49AF45]">Get Involved</a>
 
             {/* Move Search and Contact Us buttons inside the mobile menu */}
-            <div className="mt-4 space-x-4">
-              <FaSearch className="text-black cursor-pointer hover:text-[#49AF45]" />
-              <button className="px-6 py-3 text-lg font-semibold text-white bg-[#49AF45] rounded-lg hover:bg-[#30862d]">
-                Contact Us
-              </button>
-            </div>
+           
           </div>
         )}
       </div>
