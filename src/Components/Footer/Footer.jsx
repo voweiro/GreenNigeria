@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className="py-10 text-white bg-transparent">
       <div className="px-6 mx-auto mt-16 w-[95%] lg:w-[90%]">
-        <div className="flex flex-wrap justify-between space-y-8 md:space-y-0">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12 lg:grid-cols-3"> {/* Grid layout on tablet and above */}
           {/* Left Section */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full">
             <div className="flex items-center space-x-3">
               <img
                 src={logo}
@@ -18,12 +18,11 @@ function Footer() {
               <img
                 src={logoTwo}
                 alt="Green Clean Logo"
-                className=" h-[36px] w-[176px] lg:block"
+                className="h-[36px] w-[176px] lg:block"
               />
             </div>
             <p className="mt-5 mb-6 text-[14px] leading-6 font-albert font-[400] text-[#868681] md:text-[16px] md:w-[250px]">
-              Driving innovation in renewable energy, climate change resilience,
-              and the green economy.
+              Driving innovation in renewable energy, climate change resilience, and the green economy.
             </p>
             <div className="flex items-center space-x-3 text-[14px] md:text-[16px] font-albert font-[400]">
               <FaPhoneAlt className="text-[#49AF45] w-[16px] h-[16px]" />
@@ -40,7 +39,7 @@ function Footer() {
           </div>
 
           {/* Center Section */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full">
             <h3 className="mb-4 text-[20px] font-albert font-[600] md:text-[24px]">
               Quick Links
             </h3>
@@ -94,7 +93,7 @@ function Footer() {
           </div>
 
           {/* Right Section */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full">
             <h3 className="mb-5 text-[20px] font-albert font-[600] md:text-[24px]">
               Newsletter
             </h3>
