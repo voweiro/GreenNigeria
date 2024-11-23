@@ -14,7 +14,8 @@ function Down() {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center justify-center space-x-4 text-[14px] font-semibold md:text-[18px]">
+        <div className="flex items-center justify-center space-x-4 text-[14px] font-semibold md:text-[18px] ">
+         
           <span className="whitespace-nowrap">• FOLLOW US :</span>
           <a
             href="#"
@@ -34,9 +35,10 @@ function Down() {
           >
             <FaLinkedinIn />
           </a>
+          </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 
