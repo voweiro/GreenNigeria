@@ -14,7 +14,7 @@ function Top() {
         {/* Location */}
         <div className="flex items-center space-x-2 text-sm md:text-base">
           <FaMapMarkerAlt className="text-[#49AF45]" />
-          {/* Show the location only on larger screens */}
+         
           <span className="hidden sm:inline">17 Libreville Crescent, Abuja, Nigeria</span>
         </div>
 
