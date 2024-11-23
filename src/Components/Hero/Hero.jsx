@@ -21,7 +21,7 @@ function Hero() {
             <button className="px-6 py-3 text-[16px] font-[500] text-white rounded-lg bg-[#49AF45] hover:bg-[#1d8319] hover:outline-none">
               Get Started
             </button>
-            <button className="px-6 py-3 font-[500] semibold text-white bg-transparent border-1 border-white rounded-lg text- hover:bg-green-500 hover:outline-none text-[16px]">
+            <button className="px-6 py-3 font-[500] semibold text-white bg-transparent border-2 border-white rounded-lg text- hover:bg-[#49AF45] hover:outline-none text-[16px]">
               Read More
             </button>
           </div>
