@@ -1,20 +1,24 @@
-import Climate from "../../Components/Climate/Climate";
-import Main from "../../Components/Footer/Main";
-import Topics from "../../Components/Green/Topics";
-import Hero from "../../Components/Hero/Hero";
-import StatsAndProcess from "../../Components/Stats/Stats";
+import Climate from "../../Components/Climate/Climate"
+import GreenCleanInnovation from "../../Components/Green/GreenCleanInnovation"
+import Hero from "../../Components/Hero/Hero"
+import Services from "../../Components/Services/Services"
+import StatsAndProcess from "../../Components/Stats/Stats"
+
 
 function Home() {
-  return (
-    <div>
-      <Hero />
-      <Topics/>
-      <Climate />
-      <StatsAndProcess />
-
-      <Main />
-    </div>
-  );
-}
-
-export default Home;
+    return (
+      <div>
+      <Hero/>
+      <Climate/>
+      <StatsAndProcess/>
+      <Services/>
+      <GreenCleanInnovation/>
+      </div>
+      
+         
+          
+      
+    )
+  }
+  
+  export default Home
