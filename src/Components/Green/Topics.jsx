@@ -3,7 +3,7 @@ import topic from "../../assets/icons/topics.png";
 
 const Topics = () => {
     return (
-      <section className="bg-green-600 py-6 px-4 w-full">
+      <section className="bg-[#49AF45] py-6 px-4 w-full">
         <div className="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 items-center text-center">
           {/* Topic 1 */}
           <div className="flex items-center justify-center gap-2">
