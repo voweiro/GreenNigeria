@@ -74,17 +74,18 @@ const Services = () => {
 
   return (
     <div
-      className="services-section py-10 px-4 bg-cover bg-center bg-no-repeat"
+      className="px-4 py-10 bg-center bg-no-repeat bg-cover services-section"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-8">
+      <h2 className="font-albert font-[600] text-[16px] text-[#49AF45] text-center">OUR SERVICES</h2>
+      <h2 className="mb-8 text-3xl font-bold text-center text-[#001819] md:text-4xl lg:text-[46px] font-albert">
         We Drive Green Growth Through Our Expert Services
       </h2>
 
       {/* Navigation Arrows Centered */}
-      <div className="flex justify-center items-center space-x-4 mb-6">
+      <div className="flex items-center justify-center mb-6 space-x-4">
         <button
           className={`${
             currentIndex === 0 ? "opacity-50 cursor-not-allowed" : ""
@@ -109,9 +110,9 @@ const Services = () => {
 
       <div className="relative flex items-center justify-center">
         {/* Cards Section */}
-        <div className="flex overflow-hidden w-full max-w-5xl">
+        <div className="flex w-full max-w-5xl overflow-hidden">
           <div
-            className="flex space-x-6 transform transition-transform duration-500"
+            className="flex space-x-6 transition-transform duration-500 transform"
             style={{
               transform: `translateX(-${(currentIndex / services.length) * 100}%)`,
             }}
@@ -119,7 +120,7 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center w-1/3"
+                className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md lg:w-1/3 w-[320px]"
                 style={{
                   display:
                     index >= currentIndex && index < currentIndex + cardsPerPage
@@ -130,16 +131,16 @@ const Services = () => {
                 <img
                   src={service.icon}
                   alt={service.title}
-                  className="w-14 h-14 mb-4"
+                  className="mb-4 w-14 h-14"
                 />
-                <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-600 text-sm mb-4 text-center">
+                <h3 className="mb-2 text-lg font-semibold">{service.title}</h3>
+                <p className="mb-4 text-sm text-center text-gray-600">
                   {service.description}
                 </p>
                 <img
                   src={service.image}
                   alt={`${service.title} visual`}
-                  className="w-full h-40 object-cover rounded-md"
+                  className="object-cover w-full h-40 rounded-md"
                 />
               </div>
             ))}
