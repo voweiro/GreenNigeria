@@ -15,7 +15,7 @@ function Navigation() {
   return (
     <div className="w-full">
       <Top />
-      <div className="w-full bg-transparent border-t border-b border-white">
+      <div className="w-full bg-transparent border-t border-b border-[#868681]">
         {/* Container for all navigation elements */}
         <div className="mx-auto w-[88%] flex items-center justify-between py-5 text-white">
           {/* Logo Section */}
