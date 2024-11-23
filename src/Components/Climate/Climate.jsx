@@ -17,17 +17,17 @@ const Climate = () => {
         </div>
 
         {/* Text Section */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 mt-24">
           <p className="text-green-700 font-medium text-sm uppercase mb-2">
             About Us
           </p>
-          <h2 className="text-3xl lg:text-4xl font-bold font-albert  text-black mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold font-albert  mb-24 text-black mb-6">
             Leading the Charge in Africa’s Green Revolution
           </h2>
           <div className="flex items-start gap-4 mb-6">
             <img src={leave} alt="Mission Icon" className="w-8 h-8" />
-            <p className="text-gray-700">
-              <strong>Our Mission:</strong> To drive innovation in clean and
+            <p className="text-gray-700 text[16px]">
+              <strong className="text-[26px]">Our Mission:</strong> To drive innovation in clean and
               green technologies across Africa.
             </p>
           </div>
@@ -40,12 +40,14 @@ const Climate = () => {
               initiatives.
             </p>
           </div>
+          <div className="mt-36"> 
           <a
             href="#"
             className="inline-block px-6 py-3 bg-green-700 text-white font-medium rounded-md shadow hover:bg-green-800 transition"
           >
             Explore More
           </a>
+          </div>
         </div>
       </div>
     </section>

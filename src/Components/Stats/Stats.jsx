@@ -44,7 +44,7 @@ const StatsAndProcess = () => {
           <p className="text-green-700 font-medium uppercase mb-2">
             Our Working Process
           </p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-green-800 mb-12">
+          <h2 className="text-3xl lg:text-5xl font-bold text-green-800 mb-12">
             Transforming Ideas Into Sustainable Realities
           </h2>
 
@@ -56,10 +56,10 @@ const StatsAndProcess = () => {
                 alt="Sustainable Solutions Icon"
                 className="mx-auto w-20 mb-6"
               />
-              <h3 className="text-xl font-semibold text-green-800 mb-4">
+              <h3 className="text-[24px] font-albert font-bold text-black  mb-4">
                 Sustainable Solutions
               </h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700 font-albert font-bold text-[16px]">
                 We develop tailored strategies to address climate challenges,
                 improve energy efficiency, and ensure a low-carbon,
                 climate-resilient future.
@@ -78,10 +78,10 @@ const StatsAndProcess = () => {
                 alt="Renewable Energy Icon"
                 className="mx-auto w-20 mb-6"
               />
-              <h3 className="text-xl font-semibold text-green-800 mb-4">
+              <h3 className="text-[24px] font-bold text-black mb-4">
                 Renewable Energy
               </h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700 font-albert font-bold text-[16px]">
                 Our focus on renewable energy ensures the implementation of
                 cutting-edge solutions like solar, wind, and bioenergy to drive
                 clean, green growth.
@@ -100,10 +100,10 @@ const StatsAndProcess = () => {
                 alt="Fresh Environment Icon"
                 className="mx-auto w-20 mb-6"
               />
-              <h3 className="text-xl font-semibold text-green-800 mb-4">
+              <h3 className="text-[24px] font-bold text-black mb-4">
                 A Fresh Environment
               </h3>
-              <p className="text-gray-700">
+              <p className="text-gray-700 font-albert font-bold text-[16px]">
                 By prioritizing environmental protection and restoration, we
                 work to create healthier, cleaner ecosystems that benefit both
                 people and the planet.
