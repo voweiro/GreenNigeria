@@ -12,9 +12,10 @@ function Home() {
       <Hero/>
       <GreenHeading/>
       <Climate/>
-      <StatsAndProcess/>
       <Services/>
       <GreenCleanInnovation/>
+      <StatsAndProcess/>
+    
       </div>
       
          
