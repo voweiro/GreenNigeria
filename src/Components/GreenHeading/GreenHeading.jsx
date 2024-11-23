@@ -1,13 +1,13 @@
 import topic from "../../assets/icons/topics.png";
 
 
-const Topics = () => {
+const GreenHeading = () => {
     return (
       <section className="bg-[#49AF45] py-6 px-4 w-full">
-        <div className="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 items-center text-center">
+        <div className="container grid items-center grid-cols-2 gap-6 mx-auto text-center sm:grid-cols-4">
           {/* Topic 1 */}
           <div className="flex items-center justify-center gap-2">
-            <span className="text-white font-medium text-lg">Climate Change</span>
+            <span className="text-lg font-medium text-white">Climate Change</span>
             {/* Placeholder for leaf image */}
             <img
               src={topic}
@@ -18,7 +18,7 @@ const Topics = () => {
   
           {/* Topic 2 */}
           <div className="flex items-center justify-center gap-2">
-            <span className="text-white font-medium text-lg">Renewable Energy</span>
+            <span className="text-lg font-medium text-white">Renewable Energy</span>
             {/* Placeholder for leaf image */}
             <img
               src={topic}
@@ -29,7 +29,7 @@ const Topics = () => {
   
           {/* Topic 3 */}
           <div className="flex items-center justify-center gap-2">
-            <span className="text-white font-medium text-lg">Green Economy</span>
+            <span className="text-lg font-medium text-white">Green Economy</span>
             {/* Placeholder for leaf image */}
             <img
               src={topic}
@@ -40,7 +40,7 @@ const Topics = () => {
   
           {/* Topic 4 */}
           <div className="flex items-center justify-center gap-2">
-            <span className="text-white font-medium text-lg">Climate Change</span>
+            <span className="text-lg font-medium text-white">Climate Change</span>
             {/* Placeholder for leaf image */}
             <img
               src={topic}
@@ -53,5 +53,4 @@ const Topics = () => {
     );
   };
   
-  export default Topics;
-  
+  export default GreenHeading;
