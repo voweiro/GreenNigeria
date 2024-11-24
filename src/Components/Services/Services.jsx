@@ -2,15 +2,12 @@ import React, { useState } from "react";
 import strategyIcon from "../../assets/icons/service-icon1.png";
 import fundingIcon from "../../assets/icons/service-icon2.png";
 import techIcon from "../../assets/icons/service-icon3.png";
-import hori from "../../assets/image/Horizontal Divider.png"
+import hori from "../../assets/image/Horizontal Divider.png";
 import strategyImage from "../../assets/image/finding.png";
 import fundingImage from "../../assets/image/image_5.png";
 import techImage from "../../assets/image/image_3.png";
 import backgroundImage from "../../assets/image/Services.png";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   const services = [
@@ -53,12 +50,6 @@ const Services = () => {
       description: "Promoting green practices across various industries.",
       image: strategyImage,
     },
-    {
-      icon: strategyIcon,
-      title: "Innovation Solutions",
-      description: "Driving innovative solutions to sustainable challenges.",
-      image: fundingImage,
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,27 +69,27 @@ const Services = () => {
 
   return (
     <div
-      className="w-full px-4 py-10 bg-center bg-no-repeat bg-cover services-section lg:h-[967.78px] lg:pt-[113px] "
+      className="w-full px-4 py-10 bg-center bg-no-repeat bg-cover services-section h-[85vh]"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
       <div className="flex w-[80%] justify-between mx-auto sm:overflow-hidden">
-        <div className="text-center md:text-left w-full md:w-[50%]">
-          <h2 className="font-albert font-[600] text-[16px] text-[#49AF45] mb-4 ">
+        <div className="text-left w-[50%]">
+          <h2 className="font-albert font-[600] text-[16px] text-[#49AF45] mb-4">
             OUR SERVICES
           </h2>
-          <h2 className="mb-8 text-3xl font-bold text-[#001819] md:text-4xl lg:text-[46px] font-albert ">
+          <h2 className="mb-8 text-3xl font-bold text-[#001819] md:text-4xl lg:text-[46px] font-albert">
             We Drive Green Growth <br /> Through Our Expert Services
           </h2>
         </div>
 
         {/* Navigation Arrows Centered */}
-        <div className="hidden md:flex items-center justify-center mb-6 space-x-4">
+        <div className="flex items-center justify-center mb-6 space-x-4">
           <button
             className={`${
               currentIndex === 0 ? "opacity-50 cursor-not-allowed" : ""
-            } bg-gray-200 hover:bg-gray-300 text-black  p-4`}
+            } bg-gray-200 hover:bg-gray-300 text-black p-4`}
             onClick={handlePrev}
             disabled={currentIndex === 0}
           >
@@ -120,9 +111,9 @@ const Services = () => {
 
       <div className="relative flex items-center justify-center">
         {/* Cards Section */}
-        <div className="w-full overflow-x-auto  lg:w-[1320px] lg:h-[523.78px] px-4">
+        <div className="flex sm:overflow-hidden w-[80%]">
           <div
-            className="flex space-x-6 transition-transform duration-500 "
+            className="flex space-x-6 transition-transform duration-500 transform"
             style={{
               transform: `translateX(-${
                 (currentIndex / services.length) * 100
@@ -132,7 +123,7 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 flex flex-col items-center p-6 bg-[#F7F6EE] rounded-lg shadow-md lg:h-[440.19px] lg:w-[412px] w-[320px] relative "
+                className="flex flex-col items-center p-6 bg-[#F7F6EE] rounded-lg shadow-md lg:w-1/3 w-[320px] relative h-[40vh]"
                 style={{
                   display:
                     index >= currentIndex && index < currentIndex + cardsPerPage
@@ -145,7 +136,9 @@ const Services = () => {
                   alt={service.title}
                   className="mb-4 w-[89px] h-[89px]"
                 />
-                <h3 className="mb-2 font-[600] text-[26px] font-albert">{service.title}</h3>
+                <h3 className="mb-2 font-[600] text-[26px] font-albert">
+                  {service.title}
+                </h3>
                 <img src={hori} alt="" className="mb-5 h-[2px] w-[56px]" />
                 <p className="mb-4 font-albert font-[400] text-[16px] text-[#868681] w-[80%]">
                   {service.description}
