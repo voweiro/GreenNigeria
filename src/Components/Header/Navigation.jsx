@@ -23,7 +23,7 @@ function Navigation() {
             <img
               src={logoTwo}
               alt="Green Clean Logo"
-              className="h-[36px] w-[176px] lg:block hidden"
+              className="h-[36px] w-[176px] lg:block "
             />
           </div>
 
