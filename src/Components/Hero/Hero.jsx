@@ -3,7 +3,7 @@ import bg from "../../assets/image/background.png";
 
 function Hero() {
   return (
-    <section className="relative w-full bg-center bg-no-repeat bg-cover h-[100vh]" style={{ backgroundImage: `url(${bg})` }}>
+    <section className="relative  bg-center bg-no-repeat bg-cover h-[100vh]" style={{ backgroundImage: `url(${bg})` }}>
       {/* Navigation */}
       <Navigation />
 

@@ -1,3 +1,4 @@
+import AppWrapper from "../../Components/AppWrapper/AppWrapper";
 import Climate from "../../Components/Climate/Climate";
 import GreenCleanInnovation from "../../Components/Green/GreenCleanInnovation";
 import GreenHeading from "../../Components/GreenHeading/GreenHeading";
@@ -9,6 +10,7 @@ import StatsAndProcess from "../../Components/Stats/Stats";
 function Home() {
   return (
     <div>
+        <AppWrapper>
       <Hero />
       <GreenHeading />
       <Climate />
@@ -16,6 +18,7 @@ function Home() {
       <GreenCleanInnovation />
       <StatsAndProcess />
       <Process />
+      </AppWrapper>
     </div>
   );
 }

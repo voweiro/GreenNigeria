@@ -16,26 +16,26 @@ function Down() {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-wrap items-center  justify-center space-y-2 md:space-y-0 md:space-x-4">
+        <div className="flex flex-wrap items-center  justify-center md:space-y-0 md:space-x-4">
           <span className="text-[14px] font-semibold whitespace-nowrap md:text-[16px] lg:text-[18px]">
             • FOLLOW US :
           </span>
           <div className="flex justify-center">
           <a
             href="#"
-            className="flex items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
+            className="flex ml-5 items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
           >
             <FaFacebookF />
           </a>
           <a
             href="#"
-            className="flex items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
+            className="flex  ml-5 items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
           >
             <FaTwitter />
           </a>
           <a
             href="#"
-            className="flex items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
+            className="flex  ml-5 items-center justify-center w-8 h-8 text-white transition duration-200 border border-white rounded-full hover:bg-gray-200 hover:text-[#49AF45] md:w-10 md:h-10"
           >
             <FaLinkedinIn />
           </a>

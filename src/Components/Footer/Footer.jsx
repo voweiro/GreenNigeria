@@ -13,7 +13,7 @@ function Footer() {
               <img
                 src={logo}
                 alt="Green Clean Logo"
-                className="h-[46px] w-[48px]"
+                className="h6px] w-[48px]"
               />
               <img
                 src={logoTwo}
