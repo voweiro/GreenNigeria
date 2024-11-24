@@ -78,14 +78,14 @@ const Services = () => {
 
   return (
     <div
-      className="w-full px-4 py-10 bg-center bg-no-repeat bg-cover services-section h-[85vh]"
+      className="w-full px-4 py-10 bg-center bg-no-repeat bg-cover services-section lg:h-[967.78px] lg:pt-[113px] "
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
       <div className="flex w-[80%] justify-between mx-auto sm:overflow-hidden">
-        <div className="text-left w-[50%]">
-          <h2 className="font-albert font-[600] text-[16px] text-[#49AF45] mb-4">
+        <div className="text-center md:text-left w-full md:w-[50%]">
+          <h2 className="font-albert font-[600] text-[16px] text-[#49AF45] mb-4 ">
             OUR SERVICES
           </h2>
           <h2 className="mb-8 text-3xl font-bold text-[#001819] md:text-4xl lg:text-[46px] font-albert ">
@@ -94,7 +94,7 @@ const Services = () => {
         </div>
 
         {/* Navigation Arrows Centered */}
-        <div className="flex items-center justify-center mb-6 space-x-4">
+        <div className="hidden md:flex items-center justify-center mb-6 space-x-4">
           <button
             className={`${
               currentIndex === 0 ? "opacity-50 cursor-not-allowed" : ""
@@ -120,9 +120,9 @@ const Services = () => {
 
       <div className="relative flex items-center justify-center">
         {/* Cards Section */}
-        <div className="flex sm:overflow-hidden w-[80%]">
+        <div className="w-full overflow-x-auto  lg:w-[1320px] lg:h-[523.78px] px-4">
           <div
-            className="flex space-x-6 transition-transform duration-500 transform"
+            className="flex space-x-6 transition-transform duration-500 "
             style={{
               transform: `translateX(-${
                 (currentIndex / services.length) * 100
@@ -132,7 +132,7 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-6 bg-[#F7F6EE] rounded-lg shadow-md lg:w-1/3 w-[320px] relative h-[40vh]"
+                className="flex-shrink-0 flex flex-col items-center p-6 bg-[#F7F6EE] rounded-lg shadow-md lg:h-[440.19px] lg:w-[412px] w-[320px] relative "
                 style={{
                   display:
                     index >= currentIndex && index < currentIndex + cardsPerPage
@@ -156,7 +156,7 @@ const Services = () => {
                   <img
                     src={service.image}
                     alt={`${service.title} visual`}
-                    className="object-cover hidden  lg:w-[324px] h-[195px] lg:transform lg:translate-x-[22%] lg:translate-y-[145%]"
+                    className="object-cover hidden  lg:w-[324px] h-[195px] lg:transform lg:translate-x-[15%] lg:translate-y-[155%] lg:block"
                   />
                 </div>
               </div>
