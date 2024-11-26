@@ -22,7 +22,8 @@ function Top() {
         <div className="flex items-center space-x-2 text-sm md:text-base">
           <FaEnvelope className="text-[#49AF45]" />
           {/* Show the email only on larger screens */}
-          <span className="hidden sm:inline">contact@greencleanhub.com</span>
+          <span className="hidden sm:inline">contact@greencleanhub.com.ng
+          </span>
         </div>
 
         {/* Phone */}

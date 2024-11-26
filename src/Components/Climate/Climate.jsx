@@ -1,27 +1,40 @@
 import climateimage from "../../assets/image/climate-image.png"; // Replace with your image path
 import leave from "../../assets/image/leave.png";
 import earth from "../../assets/image/earth.png";
+import bg from "../../assets/image/baccck.jpeg"; // Replace with your image path
+import green from "../../assets/image/greendot.png";
+
 
 const Climate = () => {
   return (
-    <section className="bg-[#f3fdf5] py-12 px-6 sm:px-10 lg:px-20 w-full">
-      <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section className="relative w-full px-6 py-12 sm:px-10 lg:px-20 lg:h-full"
+    style={{ backgroundImage: `url(${bg})` }}>
+      
+      <div className="container flex flex-col items-center gap-10 mx-auto md:flex-row lg:my-[124px]">
         {/* Image Section */}
-        <div className="md:w-1/2 flex justify-center lg:w-1/2">
+        <div className="relative flex justify-center md:w-1/2 lg:w-1/2">
+          {/* Green Background Dot */}
+          <img
+            src={green}
+            alt="Green Dot Background"
+            className="absolute z-1 w-full  lg:w-[150px] lg:h-[150px] lg:bottom-[-10%] -left-[10%] opacity-90 "
+          />
+
+          {/* Climate Image */}
           <img
             src={climateimage}
             alt="Green Revolution"
-            className="rounded-lg shadow-lg max-w-full"
+            className="relative z-10 max-w-full rounded-lg shadow-lg"
           />
         </div>
 
         {/* Text Section */}
-        <div className="md:w-1/2 mt-10 md:mt-16">
-          <p className="text-green-700 font-medium text-sm uppercase mb-2">
+        <div className="mt-10 md:w-1/2 md:mt-16">
+          <p className="mb-2 text-sm font-medium text-green-700 uppercase">
             About Us
           </p>
-          <h2 className="text-3xl lg:text-[46px] font-bold font-albert mb-12 text-black">
-            Leading the Charge in Africa’s Green Revolution
+          <h2 className="text-3xl lg:text-[46px] font-bold font-albert mb-12 text-black lg:leading-[45px] md:leading-[30px]">
+            Leading the Charge in <br/>Africa’s Green Revolution
           </h2>
           <div className="flex items-start gap-4 mb-6">
             <img src={leave} alt="Mission Icon" className="w-8 h-8" />
@@ -34,7 +47,7 @@ const Climate = () => {
               To drive innovation in clean and green technologies across Africa.
             </p>
           </div>
-          <div className="flex items-start gap-4 mb-6 pt-8">
+          <div className="flex items-start gap-4 pt-8 mb-6">
             <img src={earth} alt="Vision Icon" className="w-8 h-8" />
             <p className="text-gray-700 text-[16px]">
               <p>
@@ -50,7 +63,7 @@ const Climate = () => {
           <div className="mt-8">
             <a
               href="#"
-              className="inline-block px-6 py-3 bg-green-700 text-white font-medium rounded-md shadow hover:bg-green-800 transition"
+              className="inline-block px-6 py-3 font-medium text-white transition bg-green-700 rounded-md shadow hover:bg-green-800"
             >
               Explore More
             </a>
