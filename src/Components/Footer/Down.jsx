@@ -4,7 +4,7 @@ import bgImage from "../../assets/image/footerbgg.jpeg";
 function Down() {
   return (
     <div
-      className="text-white bg-center bg-no-repeat bg-cover h-[18vh] md:h-[15vh] xl:h-[152px]"
+      className="text-white bg-center bg-no-repeat bg-cover h-[18vh] md:h-[20vh] xl:h-[152px]"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="flex flex-col items-center justify-evenly h-full px-4 mx-auto space-y-4 md:flex-row md:space-y-0 md:w-[90%]">

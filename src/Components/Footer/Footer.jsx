@@ -117,8 +117,8 @@ function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className=" pt-4 mt-8 lg:pt-8 lg:mt-16 text-center border-t border-gray-600 text-[14px] font-albert font-[400] md:text-[16px]  ">
-          © 2024 Green Clean Innovation Hub. All rights reserved.
+        <div className="   lg:pt-8 lg:mt-10 text-center border-t border-gray-600 text-[14px] font-albert font-[400] md:text-[16px]  ">
+          © 2025 Green Clean Innovation Hub. All rights reserved.
         </div>
       </div>
     </div>
