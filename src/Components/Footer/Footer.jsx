@@ -30,7 +30,7 @@ function Footer() {
             </div>
             <div className="flex items-center my-4 space-x-3 text-[14px] md:text-[16px] font-albert font-[400]">
               <FaEnvelope className="text-[#49AF45] w-[16px] h-[16px]" />
-              <span>contact@greencleanhub.com</span>
+              <span>contact@greenclean.com.ng</span>
             </div>
             <div className="flex items-center space-x-3 text-[14px] md:text-[16px] font-albert font-[400]">
               <FaMapMarkerAlt className="text-[#49AF45] w-[16px] h-[16px]" />
@@ -117,7 +117,7 @@ function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-8 mt-16 text-center border-t border-gray-600 text-[14px] font-albert font-[400] md:text-[16px]">
+        <div className=" pt-4 mt-8 lg:pt-8 lg:mt-16 text-center border-t border-gray-600 text-[14px] font-albert font-[400] md:text-[16px]  ">
           © 2024 Green Clean Innovation Hub. All rights reserved.
         </div>
       </div>
