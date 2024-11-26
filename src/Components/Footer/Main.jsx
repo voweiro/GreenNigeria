@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function Main() {
   return (
     <section
-      className="relative w-full min-h-screen bg-center bg-no-repeat bg-cover"
+      className="relative w-full h-auto bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${bg})` }}
     >
       {/* Overlay (Optional for Better Readability) */}
