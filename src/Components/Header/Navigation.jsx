@@ -51,7 +51,7 @@ function Navigation() {
 
           {/* Search Icon and Contact Button */}
           <div className="flex items-center space-x-4 lg:space-x-6">
-            <FaSearch className="text-white cursor-pointer hover:text-green-500" />
+            
             <button className="hidden lg:block px-4 py-2 bg-[#49AF45] text-white rounded-md hover:bg-[#30862d] font-albert">
               Contact Us
             </button>
